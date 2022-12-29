@@ -16,7 +16,8 @@ export class DadoComponent implements OnInit {
       this.valor=i;
     }
     this.valorPrev=this.valor;
-    document.getElementById('dado')
+    let dado=document.getElementById('dado');
+    dado?.classList.toggle('rotate')
   }
   ngOnInit(): void {
   }
