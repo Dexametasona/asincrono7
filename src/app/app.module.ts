@@ -1,3 +1,4 @@
+import { FormsModule } from '@angular/forms';
 import { ElementosModule } from './elementos/elementos.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -12,7 +13,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ElementosModule
+    ElementosModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
