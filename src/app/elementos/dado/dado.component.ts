@@ -16,6 +16,7 @@ export class DadoComponent implements OnInit {
       this.valor=i;
     }
     this.valorPrev=this.valor;
+    document.getElementById('dado')
   }
   ngOnInit(): void {
   }
